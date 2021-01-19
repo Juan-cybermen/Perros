@@ -1,0 +1,430 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*
+ * Heading
+*/
+
+h1 {
+  font-size: 1.375rem;
+  color: #666A6C;
+}
+
+/*
+ * Header and Hero styles
+*/
+
+header {
+  background: white;
+}
+
+header .logo {
+  border-right: 1px solid #DCE0E0;
+}
+
+.hero img {
+  width: 100%;
+
+}
+
+/*
+ * Info
+*/
+
+.info {
+  background: white; 
+  text-align: center;
+}
+
+.info .owner-details img {
+  border-radius: 50%;
+}
+
+.info h1 {
+  padding-top: 0.313rem;
+  padding-bottom: 0.313rem;
+}
+
+.info h2.relationship, .info h2.name {
+  color: #909597;
+}
+
+.info h2.name {
+  font-weight: bold;
+}
+
+.info .icon {
+  float: left;
+  width: 33.3%;
+  padding-bottom: 25px;
+}
+
+.info .booking h2 {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 1.563rem;
+}
+
+.info .location {
+  padding-bottom: 0.939rem;
+}
+
+/*
+ * about
+*/
+
+.about {
+  background: #F5F5F5;
+}
+
+
+
+/*
+ * About Dog
+*/
+
+h3.lol {
+  margin-top: 50px;
+  font: OpenSans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #565A5C;
+  margin-bottom: 30px;
+}
+
+
+
+.fact {
+  font: OpenSans;
+  line-height: 22px;
+  font-size: 13px;
+  padding-bottom: 15px;
+  text-align: justify;
+  color: #565A5C;
+  font-weight: 600;
+}
+
+.contact {
+  font: OpenSans;
+  font-weight: bold;
+  font-size: 13px;
+  color: #FF595F;
+  padding-bottom:30px;
+}
+
+.description {
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top: 1px solid #DCE0E0;
+  border-bottom: 1px solid #DCE0E0;
+
+}
+
+/*
+ * Care
+*/
+
+.care {
+  text-align: justify;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  border-bottom: 1px  30px solid #DCE0E0;
+}
+
+.h {
+  display: inline;
+
+}
+
+.important {
+  display: inline;
+  font-weight: bold;
+}
+
+
+/*
+ * Games
+*/
+
+.games {
+    padding-bottom: 135px;
+    border-bottom: 1px solid #DCE0E0
+}
+
+.games img {
+  float: left;
+}
+
+.games h3 {
+  float: left;
+  padding-left: 5px;
+}
+
+.games h5 {
+  float: left;
+  padding-top: 10px;
+  padding-left: 45px;
+  padding-bottom: 15px;
+  margin-right: 155px;
+}
+
+.games .icon {
+  width: 242px;
+  padding-left: 48px;
+  padding-bottom: 5px;
+  display: block;
+}
+
+/*
+ * Photos
+*/
+
+.photos img {
+  padding-top: 20px;
+  width: 400px;
+  height: 500px;
+}
+
+
+
+
+
+@media only screen and (min-width: 1060px) {
+
+  .container {
+    width: 65rem;
+    margin: 0 auto;
+
+  }
+  .column {
+    float: left;
+  }
+
+  .button {
+    width: 17.188rem; 
+    margin: auto;
+  }
+
+  .info .profile {
+    width: 41.25rem;
+    border-right: 0.063rem solid #DCE0E0;
+    background: white;
+  }
+
+  .info .booking {
+    width: 23.73rem;
+    padding-top: 1.25rem;
+  }
+
+  .info .ownwer-details {
+    width: 20%;
+  }
+
+  .info h1 {
+    padding-top: 0.938rem;
+    padding-bottom: 0.313rem;
+  }
+
+  .info h5 {
+    text-align: center;
+  }
+
+  .info .owner-details img {
+    padding-top: 0.625rem;
+  }
+
+  .info .owner-details {
+    width: 20%;
+  }
+
+  .info .pet-details {
+    width: 80%;
+    text-align: left;
+  }
+
+  .info .pet-details .icon img {
+    display: block;
+    margin: 0.1875rem auto 0.1875rem;
+  }
+
+  /*
+ * About
+*/
+
+.about {
+  float: left;
+}
+.about .description {
+ margin-top: 0px;
+}
+
+.about .about.dog {
+  padding-left: 143px;
+ padding-right: 143px;
+}
+
+.about .lol {
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px
+  
+}
+
+.about .fact {
+  padding-top: 20px;
+}
+
+.about .contact {
+
+}
+
+
+.about .aspect {
+  float: left;
+  padding-left: 300px;
+}
+
+.about .aspectso {
+  float: right;
+  padding-right: 300px;
+}
+
+/*
+ * Care
+*/
+
+.care {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #DCE0E0;
+  border-bottom: 50%;
+}
+
+
+.care h5 {
+ float: left;
+ padding-top: 5px;
+ padding-left: 139px;
+}
+
+.care .aspect {
+  padding-left: 145px;
+}
+
+.care .aspectso {
+  padding-right: 230px;
+}
+ /*
+ * Games
+*/
+ 
+ .games {
+  padding-top: 10px;
+  padding-bottom: 30p
+  
+ }
+
+ .games h5 {
+  padding-left: 179px;
+  margin-right: auto;
+  margin-bottom: 45px;
+ }
+
+ .games .icons {
+  padding-top: 14px
+ }
+
+
+ .games .icon {
+  float: left;
+  width: 44%;
+  padding-left: 132px;
+  padding-bottom: 15px;
+ }
+
+  /*
+ * Photos
+*/
+
+.photos img {
+  width: 200px;
+  height: 300px;
+  padding-bottom: 0px;
+}
+
+.photos .dog {
+  display: inline;
+  padding-right: 0px;
+  
+}
+
+.photos .dogg {
+  float: right;
+  padding-right: 190px;
+ }
+
+.photos .doggg {
+  float: left;
+  padding-left: 180px;
+  padding-right: 0px;
+
+}
+
+.photos .DOG {
+  padding-bottom: 80px;
+}
+
+
+
+
+
+
+ 
